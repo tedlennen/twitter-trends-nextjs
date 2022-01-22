@@ -1,0 +1,32 @@
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .table
+  {
+      margin: auto;
+      width: 50%;
+  }
+}
+
+.table_desc, .table_head {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table_row:nth-child(even) {
+  background-color: #dddddd;
+}
+.table_row:hover
+{
+  background-color: beige;
+}
+.anchor
+{
+  text-decoration: none;
+  color: blueviolet;
+}
