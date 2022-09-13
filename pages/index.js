@@ -15,7 +15,7 @@ const Index = (props) => {
 
 export async function getStaticProps() {
     const url = "https://api.twitter.com/1.1/trends/place.json?id=23424848";
-    const token = "AAAAAAAAAAAAAAAAAAAAAFxeVwEAAAAAEAgJQcTvi8pO4D9eXx%2BBCz0yf2E%3DmkuCAx0wAMvZjDh0o8OS5ArFOj98GumE0c893QV2WivWM3f4BI";
+    const token = "AAAAAAAAAAAAAAAAAAAAAPINdgEAAAAA7elmp0LXsBvPwNlgnqsZFa06Oxk%3DsXgeESuRlMI1UBnlJnIMfcGLDlsesQDQ13dPyZ02c6b1UCWIr4";
     const config = {
         headers: { Authorization: `Bearer ${token}` }
     };
